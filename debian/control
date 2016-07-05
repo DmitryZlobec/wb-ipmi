@@ -1,0 +1,14 @@
+Source: wb-ipmi
+Maintainer: Dmitry Petrenko <zlobec@gmail.com>
+Section: misc
+Priority: optional
+Standards-Version: 0.9.1
+Build-Depends: debhelper (>= 9), pkg-config, g++, libjsoncpp-dev, libmosquittopp-dev, libmosquitto-dev, libwbmqtt-dev (>= 1.3.2), libmodbus-dev (>= 3.0.3), freeipmi-tools
+
+Package: wb-ipmi
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libjsoncpp0, libmosquittopp1, libmosquitto1, bsdutils, libwbmqtt (>= 1.3.2), freeipmi-tools
+Replaces: 
+Breaks: 
+Description: Wiren Board Smart Home MQTT IPMI protocol driver.
+
