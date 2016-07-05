@@ -1,9 +1,14 @@
 # wb-ipmi
-h1 IPMI driver for MQTT Wirenboard. 
+
+## IPMI driver for MQTT Wirenboard. 
+
 Проект драйвер для получения состояния сенсоров серверов HP ProLiant по iLO(Integrated Lights-Out),
 а также других серверов поддерживающи стандарт IPMI.
+
 Для функционирования должен быть установлен _freeipmi-tools_.
+
 Конфигурационный файл в формате JSON находится в _/etc/wb-ipmi.conf_.
+
 Драйвер получает значения только чиловых сенсоров.
 
  
