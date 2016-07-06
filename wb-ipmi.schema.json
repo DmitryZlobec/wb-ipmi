@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "rack_name": {
+      "type": "string"
+    },
+    "channels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "addess": {
+            "type": "string"
+          },
+          "port": {
+            "type": "string"
+          },
+          "login": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "addess",
+          "port",
+          "login",
+          "password"
+        ]
+      }
+    }
+  },
+  "required": [
+    "rack_name",
+    "channels"
+  ]
+}

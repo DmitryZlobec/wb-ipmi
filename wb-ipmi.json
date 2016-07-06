@@ -1,0 +1,29 @@
+{
+  "rack_name": "22sdf",
+  "timeout": 60,
+  "channels": [
+    {
+      "id": "A1",
+      "addess": "192.168.0.1",
+      "port": "334",
+      "login": "Administrator",
+      "password": "passwd"
+    },
+    {
+      "id": "A2",
+      "addess": "192.168.0.2",
+      "port": "334",
+      "login": "wb",
+      "password": "password"
+    },
+
+    {
+      "id": "A3",
+      "addess": "192.160.0.3",
+      "port": "334",
+      "login": "guest",
+      "password": "password"
+    }
+
+  ]
+}
